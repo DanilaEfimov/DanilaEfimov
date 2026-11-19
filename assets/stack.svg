@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff5fa2"/>
+      <stop offset=".5" stop-color="#7cffb2"/>
+      <stop offset="1" stop-color="#c77dff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="896" height="296" rx="16" fill="#0f0b1e" stroke="url(#bd)" stroke-width="2"/>
+  <path d="M2 18 a16 16 0 0 1 16 -16 h864 a16 16 0 0 1 16 16 v22 h-896 z" fill="#1b1436"/>
+  <circle cx="28" cy="21" r="6" fill="#ff5f56"/>
+  <circle cx="50" cy="21" r="6" fill="#ffbd2e"/>
+  <circle cx="72" cy="21" r="6" fill="#27c93f"/>
+  <text x="450" y="26" text-anchor="middle" font-family="'Fira Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#8f82b8">goodogott@pony:~</text>
+
+  <g font-family="'Fira Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="17">
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.2s" fill="freeze"/>
+      <text x="28" y="84"><tspan fill="#ff77c8">$</tspan><tspan fill="#ffffff"> whoami</tspan></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1s" dur="0.2s" fill="freeze"/>
+      <text x="28" y="112" fill="#9ad8ff">goodogott — femboy dev, pony enjoyer, wannabe vtuber</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.2s" fill="freeze"/>
+      <text x="28" y="156"><tspan fill="#ff77c8">$</tspan><tspan fill="#ffffff"> ls ./stack</tspan></text>
+    </g>
+
+    <!-- chips -->
+    <g text-anchor="middle" font-weight="700" fill="#0f0b1e">
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.25s" fill="freeze"/>
+        <rect x="28" y="172" width="58" height="34" rx="17" fill="#6bb8ff"/><text x="57" y="195">C++</text></g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.25s" fill="freeze"/>
+        <rect x="98" y="172" width="48" height="34" rx="17" fill="#7cffb2"/><text x="122" y="195">Qt</text></g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.25s" fill="freeze"/>
+        <rect x="158" y="172" width="78" height="34" rx="17" fill="#ffb86b"/><text x="197" y="195">Boost</text></g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3s" dur="0.25s" fill="freeze"/>
+        <rect x="248" y="172" width="88" height="34" rx="17" fill="#ffe06b"/><text x="292" y="195">Python</text></g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.2s" dur="0.25s" fill="freeze"/>
+        <rect x="348" y="172" width="88" height="34" rx="17" fill="#8be28b"/><text x="392" y="195">Django</text></g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.25s" fill="freeze"/>
+        <rect x="448" y="172" width="98" height="34" rx="17" fill="#ff8fc8"/><text x="497" y="195">aiogram</text></g>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.2s" fill="freeze"/>
+      <text x="28" y="248"><tspan fill="#ff77c8">$</tspan><tspan fill="#ffffff"> ponies --count</tspan></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.9s" dur="0.2s" fill="freeze"/>
+      <text x="28" y="276" fill="#c9b6ff">∞ (integer overflow, sorry)</text>
+      <rect x="290" y="261" width="10" height="19" fill="#ff77c8">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
